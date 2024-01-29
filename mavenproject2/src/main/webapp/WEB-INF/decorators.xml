@@ -1,0 +1,8 @@
+<decorators defaultdir="/decorators">
+    <decorator name="main" page="/decorators/web.jsp">
+          <pattern>/*</pattern>
+    </decorator>
+    <decorator name="login" page="SignUp.jsp">
+        <pattern>/dang-nhap</pattern>
+    </decorator>
+</decorators>

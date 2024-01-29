@@ -1,0 +1,77 @@
+@font-face{
+    font-family: Logo;
+    src: url(GoodzillazDEMO.otf);
+}
+/* this is the footer  */
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    
+}
+.logo h1{
+    font-size: 52px;
+}
+.menu{
+    margin-left: -400px;
+    margin-top: 10px;
+}
+.menu ul{
+    display: flex;
+    justify-content: baseline;
+    gap: 60px;
+    list-style: none;
+    
+
+    
+}
+.menu ul li a{
+    text-decoration: solid;
+    font-size: 20px;
+    color: black;
+}
+.SignUp button{
+    padding: 10px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 14px;
+    border-radius: 6px;
+    color: white;
+    background: black;
+}
+
+/* this is the footer */
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    gap: 540px;
+}
+.footer1 div ul{
+    display: flex;
+    gap: 20px;
+}
+.footer1 div ul li{
+    list-style: none;
+}
+hr{
+    margin: 0px 220px;
+    border: solid -1px;
+}
+.footer2 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.link-footer{
+    margin-left: -42px;
+}
+.link-footer ul{
+    list-style: none;
+}
+.link-footer ul li a{
+    color: black;
+}.main {
+
+}
